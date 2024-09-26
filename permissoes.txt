@@ -1,0 +1,19 @@
+ |owner/root| grupo      |  outros
+d|rwx       | rwx        |  rwx 
+
+r - read
+w - write
+x - executable
+
+chmod 600
+
+421
+rwx
+
+root    - leitura e escrita => 6
+grupo   - leitura =>           4
+outros  - nada    =>           0
+
+```zsh
+chmod 640 teste.txt
+```
